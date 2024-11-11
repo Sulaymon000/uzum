@@ -1,0 +1,51 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+.cantener{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.wrapper{
+   
+    display: flex;
+    gap:10px ;
+    flex-wrap: wrap;
+   
+}
+
+.card{
+    width: 300px;
+    border-radius: 4px;
+}
+
+.card-img{
+    width:290px;
+    border-radius: 4px 4px 0 0;
+}
+.card-img:hover{
+ width:350px ;
+ transition: 0.7s ease-in-out;
+ overflow: hidden;
+}
+body{
+    background-color: rgba(95, 95, 95, 0.087);
+}
+span{
+    background-color: yellow;
+    padding: 4px;
+    margin-top: 19px;
+    
+}
+.img-promocod{
+    width: 1300px;
+    margin-top: 30px;
+}
+
+
+
+
+
